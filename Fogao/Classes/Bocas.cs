@@ -27,7 +27,7 @@ class Boca
         if (!this.Estado)
         {
             this.Estado = true;
-            this.PotenciaAtual = potencia;
+            this.PotenciaAtual = ArredondadorDePotencia(potencia);
         } else
         {
             Console.WriteLine("Esta boca ja esta acesa");
