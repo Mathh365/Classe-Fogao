@@ -8,9 +8,7 @@ class Boca
 
     public Boca (int potenciaMaxima)
     {
-        this.PotenciaMaxima = ArredondadorDePotencia(potenciaMaxima);
-        Console.WriteLine($"A potencia Maxima desta boca agora é {this.PotenciaMaxima}");
-        
+        this.PotenciaMaxima = ArredondadorDePotencia(potenciaMaxima);        
         this.Estado = false;
     }
 
