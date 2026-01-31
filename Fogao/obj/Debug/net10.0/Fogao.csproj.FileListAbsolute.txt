@@ -12,3 +12,4 @@ C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\F
 C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\Fogao.pdb
 C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\Fogao.genruntimeconfig.cache
 C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\ref\Fogao.dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\Fogao.sourcelink.json

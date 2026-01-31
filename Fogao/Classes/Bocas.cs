@@ -1,6 +1,6 @@
 namespace classes;
 
-class Boca
+public class Boca
         //definindo as propriedades da boca do fogao
 {   public int PotenciaMaxima {get; private set;} 
     public int PotenciaAtual {get; private set;}
