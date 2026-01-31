@@ -1,3 +1,4 @@
+using Funcs;
 namespace classes;
 
 public class Boca
@@ -10,17 +11,8 @@ public class Boca
     public Boca (int potenciaInserida)
     {
         this.PotenciaAtual = 0;
-        this.PotenciaMaxima = ArredondadorDePotencia(potenciaInserida, 10);        
+        this.PotenciaMaxima = func.ArredondaPotencia(potenciaInserida, 10);        
         this.Estado = false;
-    }
-
-        //metodo responsavel por arredondar o valor de potencia fornecido 
-    private int ArredondadorDePotencia (int num, int valorMaximo)
-    {
-        if ((num >= 1) && (num <= valorMaximo)) return num;
-        else if (num > valorMaximo) return valorMaximo;
-        else if (num <= 1) return 1;
-        return 1;
     }
 
         //metodo que ascende a boca, alterando o estado da mesma, respeitando os limites fisicos do hardware
@@ -29,7 +21,7 @@ public class Boca
         if (!this.Estado)
         {
             this.Estado = true;
-            this.PotenciaAtual = ArredondadorDePotencia(potencia, PotenciaMaxima);
+            this.PotenciaAtual = func.ArredondaPotencia(potencia, PotenciaMaxima);
         } else
         {
             Console.WriteLine("Esta boca ja esta acesa");
@@ -49,5 +41,4 @@ public class Boca
         }
     }
 }
-
 
