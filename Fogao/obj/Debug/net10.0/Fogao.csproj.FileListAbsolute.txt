@@ -1,0 +1,14 @@
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\bin\Debug\net10.0\Fogao.exe
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\bin\Debug\net10.0\Fogao.deps.json
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\bin\Debug\net10.0\Fogao.runtimeconfig.json
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\bin\Debug\net10.0\Fogao.dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\bin\Debug\net10.0\Fogao.pdb
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\Fogao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\Fogao.AssemblyInfoInputs.cache
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\Fogao.AssemblyInfo.cs
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\Fogao.csproj.CoreCompileInputs.cache
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\Fogao.dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\refint\Fogao.dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\Fogao.pdb
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\Fogao.genruntimeconfig.cache
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\Classe-Fogao\Fogao\obj\Debug\net10.0\ref\Fogao.dll
