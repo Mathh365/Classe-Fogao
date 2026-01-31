@@ -4,21 +4,19 @@ namespace classes;
 public class Fogao
 {
     private int PotenciaDoFogao;
-    private int nDeBocas;
     private List<Boca> Bocas;
 
-    public Fogao(int numero, int potencia)
+    public Fogao(int nDeBocas, int potencia)
     {
         this.PotenciaDoFogao = func.ArredondaPotencia(potencia, 10);
-        this.nDeBocas = numero;
 
         Bocas = new List<Boca>();
         CriaBocas(nDeBocas);
     }
 
-    private void CriaBocas(int quantidade)
+    private void CriaBocas(int nbocas)
     {
-        for (int i = 0; i < quantidade; i++)
+        for (int i = 0; i < nbocas; i++)
         {
             Bocas.Add(new Boca(PotenciaDoFogao));
         }
@@ -28,7 +26,7 @@ public class Fogao
     {
         Console.WriteLine("Potencia maxima deste fogao (aplicada a todas as bocas): " + PotenciaDoFogao);
 
-        for (int i = 0; i < nDeBocas; i++)
+        for (int i = 0; i < Bocas.Count; i++)
         {
             Console.WriteLine($"""
             ---------------------------------------------------------

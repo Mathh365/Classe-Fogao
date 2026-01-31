@@ -11,8 +11,8 @@ public class Boca
     public Boca (int potenciaInserida)
     {
         this.PotenciaAtual = 0;
-        this.PotenciaMaxima = func.ArredondaPotencia(potenciaInserida, 10);        
         this.Estado = false;
+        this.PotenciaMaxima = potenciaInserida;
     }
 
         //metodo que ascende a boca, alterando o estado da mesma, respeitando os limites fisicos do hardware
