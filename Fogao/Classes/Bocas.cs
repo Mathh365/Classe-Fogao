@@ -21,7 +21,7 @@ public class Boca
         if (!this.Estado)
         {
             this.Estado = true;
-            this.PotenciaAtual = func.ArredondaPotencia(potencia, PotenciaMaxima);
+            this.PotenciaAtual = Func.ArredondaPotencia(potencia, PotenciaMaxima);
         } else
         {
             Console.WriteLine("Esta boca ja esta acesa");

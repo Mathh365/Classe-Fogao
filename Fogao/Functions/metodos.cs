@@ -1,6 +1,6 @@
 namespace Funcs;
 
-public static class func
+public static class Func
 {
     //metodo responsavel por arredondar o valor de potencia fornecido 
     public static int ArredondaPotencia(int potenciaCrua, int valorMaximo)

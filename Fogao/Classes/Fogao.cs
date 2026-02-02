@@ -3,12 +3,12 @@ namespace classes;
 
 public class Fogao
 {
-    private int PotenciaDoFogao;
-    private List<Boca> Bocas;
+    readonly int PotenciaDoFogao;
+    readonly List<Boca> Bocas;
 
     public Fogao(int nDeBocas, int potencia)
     {
-        this.PotenciaDoFogao = func.ArredondaPotencia(potencia, 10);
+        this.PotenciaDoFogao = Func.ArredondaPotencia(potencia, 10);
 
         Bocas = new List<Boca>();
         CriaBocas(nDeBocas);
@@ -22,7 +22,7 @@ public class Fogao
         }
     }
 
-    public void StatusDasBocas()
+    public void StatusGeral()
     {
         Console.WriteLine("Potencia maxima deste fogao (aplicada a todas as bocas): " + PotenciaDoFogao);
 
@@ -30,7 +30,7 @@ public class Fogao
         {
             Console.WriteLine($"""
             ---------------------------------------------------------
-            Boca {i}
+            Boca {i+1}
 
             Estado: {Bocas[i].Estado}
             Potencia na boca atualmente: {Bocas[i].PotenciaAtual}
@@ -38,4 +38,19 @@ public class Fogao
             """);
         }
     }
+
+    public void StatusDaBoca(int numeroDaBoca)
+    {
+        int nDaBoca = numeroDaBoca - 1;
+        Console.WriteLine($"""
+            ---------------------------------------------------------
+            Boca {numeroDaBoca}
+
+            Estado: {Bocas[nDaBoca].Estado}
+            Potencia na boca atualmente: {Bocas[nDaBoca].PotenciaAtual}
+            Potencia MAXIMA desta boca: {Bocas[nDaBoca].PotenciaMaxima}
+            ---------------------------------------------------------
+            """);
+    }
+    
 }
