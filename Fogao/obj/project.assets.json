@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MIr4aii\\.nuget\\packages\\": {}
+    "C:\\Users\\mathe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\Classe-Fogao\\Fogao\\Fogao.csproj",
+      "projectUniqueName": "C:\\Programação\\Repositorios\\Pessoais\\Classe-Fogao\\Fogao\\Fogao.csproj",
       "projectName": "Fogao",
-      "projectPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\Classe-Fogao\\Fogao\\Fogao.csproj",
-      "packagesPath": "C:\\Users\\MIr4aii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\Classe-Fogao\\Fogao\\obj\\",
+      "projectPath": "C:\\Programação\\Repositorios\\Pessoais\\Classe-Fogao\\Fogao\\Fogao.csproj",
+      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+      "outputPath": "C:\\Programação\\Repositorios\\Pessoais\\Classe-Fogao\\Fogao\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MIr4aii\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

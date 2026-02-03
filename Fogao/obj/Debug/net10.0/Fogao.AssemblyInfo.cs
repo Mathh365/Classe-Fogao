@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fogao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+948c572b9c37798768bb18a013bab47cdff6c065")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e699a7813658ef7072f9d6d481193efbc7132b29")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fogao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fogao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
